@@ -1,0 +1,3 @@
+#!/bin/bash
+python -u main.py | tee log.txt &
+python -u streaming.py | tee log.txt 
